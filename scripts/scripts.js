@@ -22,4 +22,24 @@ window.onscroll = () => {
     navBar.classList.remove("nav-toggle");
 }
 
+const home = document.querySelector(".nav-toggle ul li a:first-child");
+    home.addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/index.php");   
+});
+
+const about = document.querySelector(".nav-toggle ul li a:nth-child(2)");
+    about.addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/#details");   
+});
+
+const services = document.querySelector(".nav-toggle ul li a:nth-child(3)");
+    services.addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/#services");   
+});
+
+const contact = document.querySelector(".nav-toggle ul li a:last-child");
+    contact.addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/#contact");   
+});
+
 // console.log(navLinks);
