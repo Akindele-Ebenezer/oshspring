@@ -24,22 +24,22 @@ window.onscroll = () => {
 
 const home = document.querySelector(".nav-toggle ul li a:first-child");
     home.addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/index.php");   
+    window.open("index.php");   
 });
 
 const about = document.querySelector(".nav-toggle ul li a:nth-child(2)");
     about.addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/#details");   
+    window.open("index.php/#details");   
 });
 
 const services = document.querySelector(".nav-toggle ul li a:nth-child(3)");
     services.addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/#services");   
+    window.open("index.php/#services");   
 });
 
 const contact = document.querySelector(".nav-toggle ul li a:last-child");
     contact.addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/#contact");   
+    window.open("index.php/#contact");   
 });
 
 // console.log(navLinks);
