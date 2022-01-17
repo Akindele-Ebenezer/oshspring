@@ -52,7 +52,7 @@ if(isset($_POST["submit"])) {
 <div class="message-success">
     <div>
         <h1>Message Sent</h1>
-        <p>Hello <?= $first_name . " " . $last_name; ?> --> Your Message has been sent successfully. I hope to respond within 24 hours. You can also contact me through <a href="https://api.whatsapp.com/send?phone=2348023704304">WHATSAPP</a>.</p>
+        <p>Hello <?= $first_name . " " . $last_name; ?>. Your Message has been sent successfully. I hope to respond within 24 hours. You can also contact me through <a href="https://api.whatsapp.com/send?phone=2348023704304">WHATSAPP</a>.</p>
     </div>
 </div>
 
