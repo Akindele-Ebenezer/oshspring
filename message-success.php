@@ -6,7 +6,7 @@ if(isset($_POST["submit"])) {
     $email = $_POST["email"];
     $message = $_POST["message"];
 
-    $sql = "INSERT INTO admin_inbox (first_name, last_name, email, message) VALUES ('$first_name', '$last_name', '$email', '$message', now())";
+    $sql = "INSERT INTO admin_inbox (first_name, last_name, email, message, time) VALUES ('$first_name', '$last_name', '$email', '$message', now())";
     $query = mysqli_query($conn, $sql);
 }
 
