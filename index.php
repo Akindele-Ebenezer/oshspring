@@ -168,7 +168,7 @@
     </div>
 
     <div class="form" id="contact">
-        <form action="message-success.html" method="post">
+        <form action="message-success.php" method="post">
             <h1>Send us Message</h1>
             <p>Feel free to drop a message below...</p>
             <input type="text" placeholder="First Name"><br>
