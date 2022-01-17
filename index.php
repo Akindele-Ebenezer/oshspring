@@ -171,11 +171,11 @@
         <form action="message-success.php" method="post">
             <h1>Send us Message</h1>
             <p>Feel free to drop a message below...</p>
-            <input type="text" placeholder="First Name"><br>
-            <input type="text" placeholder="Last Name"><br>
-            <input type="text" placeholder="Email"><br>
-            <textarea placeholder="Type your Message..."></textarea><br>
-            <button>SUBMIT</button>
+            <input type="text" name="first_name" placeholder="First Name"><br>
+            <input type="text" name="last_name" placeholder="Last Name"><br>
+            <input type="text" name="email" placeholder="Email"><br>
+            <textarea placeholder="Type your Message..." name="message"></textarea><br>
+            <button type="submit" name="submit">SUBMIT</button>
         </form>
         <div>
             <div>
