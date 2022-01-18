@@ -87,6 +87,42 @@ textarea {
     margin-bottom: 1rem;
 }
 
+.circles {
+    margin: .1rem; 
+}
+
+.circles:first-child {
+    animation-name: one;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background: rgb(233, 227, 153);
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+}
+
+.circles:nth-child(2) {
+    animation-name: two;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background: rgb(161, 134, 179);
+    border-radius: 50%;
+    height: .9rem;
+    width: .9rem;
+}
+
+.circles:last-child {
+    animation-name: three;
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background: rgb(250, 48, 12);
+    border-radius: 50%;
+    height: .7rem;
+    width: .7rem;
+}
+
 #contact.form div div div div img {
     width: 4rem;
 }
@@ -297,6 +333,29 @@ input[placeholder],
     text-decoration: none;
 }
 
+.load {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center; 
+    overflow: hidden;
+    position: absolute;
+    width: -moz-available;
+    z-index: 100;
+}
+
+.load div {
+    display: flex;
+}
+
+.load p {
+    margin-inline: .5rem;
+}
+
+.main {
+    display: none;
+}
 .message-success {
     display: flex;
     justify-content: center;
@@ -394,6 +453,32 @@ ul {
     list-style: none;
 }
  
+@keyframes one {
+    0% { 
+        transform: translateY(0rem);
+    }
+    100% {
+        transform: translateY(1.5rem); 
+    }
+}
+
+@keyframes two {
+    0% { 
+        transform: translateY(0rem);
+    }
+    100% {
+        transform: translateY(1.2rem); 
+    }
+}
+
+@keyframes three {
+    0% { 
+        transform: translateY(0rem);
+    }
+    100% {
+        transform: translateY(.5rem); 
+    }
+}
 @media(max-width: 1264px) {
     .social-links {
         display: none;
