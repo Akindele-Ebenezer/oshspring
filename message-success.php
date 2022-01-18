@@ -3,8 +3,8 @@ include "config.php";
 if(isset($_POST["submit"])) {
     $first_name = $_POST["first_name"];
     $last_name = $_POST["last_name"];
-    $email = mysql_real_escape_string($conn, $_POST["email"]);
-    $message = mysql_real_escape_string($conn, $_POST["message"]);
+    $email = mysqli_real_escape_string($conn, $_POST["email"]);
+    $message = mysqli_real_escape_string($conn, $_POST["message"]);
 
     $sql = "INSERT INTO admin_inbox (first_name, last_name, email, message, time) VALUES ('$first_name', '$last_name', '$email', '$message', now())";
     $query = mysqli_query($conn, $sql);
