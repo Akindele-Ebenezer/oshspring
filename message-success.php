@@ -1,6 +1,8 @@
 <?php
 include "config.php";
 include "header.php";
+$title = "Message Sent";
+
 if(isset($_POST["submit"])) {
     $first_name = $_POST["first_name"];
     $last_name = $_POST["last_name"];
