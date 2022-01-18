@@ -1,6 +1,6 @@
 <?php 
-    include "header.php"; 
     $title = "OSHSPRING MULTIREQUEST ENTERPRISES";
+    include "header.php"; 
 ?> 
 
     <div class="social-links">
