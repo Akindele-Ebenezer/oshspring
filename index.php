@@ -199,9 +199,11 @@
                         <p>090234545646</p>
                     </div>
                     <div>
-                        <img src="images/whatsapp.png">
-                        <p>Whatsapp Link</p>
-                        <p><a href="https://api.whatsapp.com/send?phone=2348023704304">08023704304</a></p>
+                        <a href="https://api.whatsapp.com/send?phone=2348023704304">
+                            <img src="images/whatsapp.png">
+                            <p>Whatsapp Link</p>
+                            <p>08023704304</p>
+                        </a>
                     </div>
                 </div>
             </div>
