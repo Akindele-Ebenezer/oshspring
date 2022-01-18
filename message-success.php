@@ -1,7 +1,7 @@
 <?php
 include "config.php";
-include "header.php";
 $title = "Message Sent";
+include "header.php";
 
 if(isset($_POST["submit"])) {
     $first_name = $_POST["first_name"];
