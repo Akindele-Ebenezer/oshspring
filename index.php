@@ -1,6 +1,6 @@
 <?php 
-    include "header.php"; ?>
-?>
+    include "header.php"; 
+?> 
 
     <div class="social-links">
         <img src="images/facebook.png" alt="">
