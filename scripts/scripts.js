@@ -1,4 +1,4 @@
-const main = document.querySelector("main"); 
+const main = document.querySelector(".main"); 
 const navBar = document.querySelector("nav");
 const navIcon = document.querySelector(".nav div img");
 
