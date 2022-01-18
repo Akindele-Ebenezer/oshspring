@@ -353,9 +353,9 @@ input[placeholder],
     margin-inline: .5rem;
 }
 
-.main {
+/* .main {
     display: none;
-}
+} */
 .message-success {
     display: flex;
     justify-content: center;
