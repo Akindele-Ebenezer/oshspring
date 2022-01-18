@@ -344,6 +344,7 @@ nav ul li a,
     display: block;
     color: #fff; 
     text-decoration: none;
+    transition: .5s;
 }
 
 nav ul li a:hover,
