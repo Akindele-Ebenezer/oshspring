@@ -64,14 +64,14 @@ for(let i = 0; i < footerLinks.length; i++) {
     
 }
 
-// const loadPage = () => {
-//     let load = document.querySelector(".load");
-//     const main = document.querySelector(".main"); 
-//     setTimeout(() => { 
-//         load.style.display = "none";
-//         main.style.display = "block";
-//     }, 3000);
-// }
+const loadPage = () => {
+    let load = document.querySelector(".load");
+    const main = document.querySelector(".main"); 
+    setTimeout(() => { 
+        load.style.display = "none";
+        main.style.display = "block";
+    }, 3000);
+}
 
-// loadPage();
+loadPage();
  //console.log(home);
