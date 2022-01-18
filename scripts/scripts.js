@@ -64,4 +64,13 @@ for(let i = 0; i < footerLinks.length; i++) {
     
 }
 
+const loadPage = () => {
+    let load = document.querySelector(".load");  
+    setTimeout(() => { 
+        load.style.display = "none";
+        main.style.display = "block";
+    }, 3000);
+}
+
+loadPage();
  //console.log(home);
