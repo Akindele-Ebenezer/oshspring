@@ -24,7 +24,8 @@ button,
     letter-spacing: .2rem;
 }
 
-button,
+a:hover,
+button:hover,
  .car-brands div img, 
  .details div,
  .nav div img:hover {
@@ -221,6 +222,11 @@ footer > div div {
 
 footer h1 {
     margin-block: 1rem;
+}
+
+.footer-links:hover {
+    cursor: pointer;
+    font-weight: bold;
 }
 
 footer + p {
