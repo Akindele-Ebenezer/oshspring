@@ -341,6 +341,7 @@ nav {
 
 nav ul li a,
 .nav-toggle ul li a {
+    display: block;
     color: #fff; 
     text-decoration: none;
 }
