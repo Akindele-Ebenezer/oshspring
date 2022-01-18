@@ -39,4 +39,29 @@ let home = document.getElementsByTagName("li");
         window.open("https://oshspring-multirequest.herokuapp.com/#contact");   
     });
 
- console.log(home);
+const footerLinks = document.getElementsByClassName("footer-links");
+
+for(let i = 0; i < footerLinks.length; i++) {
+    
+  footerLinks[0].addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/");
+  });
+    
+    
+  footerLinks[1].addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/#details");
+  });
+    
+    
+  footerLinks[2].addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/#services");
+  });
+    
+    
+  footerLinks[3].addEventListener("click", () => {
+    window.open("https://oshspring-multirequest.herokuapp.com/#contact");
+  });
+    
+}
+
+ //console.log(home);
