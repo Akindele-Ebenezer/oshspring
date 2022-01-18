@@ -10,7 +10,7 @@
         <span></span>
         <input type="password" name="password" placeholder="Password">
         <span></span>
-        <button type="submit" name="submit"></button>
+        <button type="submit" name="submit">Submit</button>
     </div>
 </form>
 
