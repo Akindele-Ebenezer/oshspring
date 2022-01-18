@@ -3,7 +3,7 @@
   include "header.php";
 ?>
 
-<form action="<?= $_SERVER['PHP _SELF'] ?>" method="get">
+<form action="<?= $_SERVER['PHP _SELF'] ?>" method="get" class="admin-login">
     <div>
         <h1>Log In</h1>
         <input type="text" name="email" placeholder="Email">
