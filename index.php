@@ -1,5 +1,6 @@
 <?php 
     $title = "OSHSPRING MULTIREQUEST ENTERPRISES";
+    include "load.php";
     include "header.php"; 
 ?> 
 
