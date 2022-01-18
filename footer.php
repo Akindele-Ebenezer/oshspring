@@ -32,10 +32,10 @@
                     <div>
                         <h1>Useful Links</h1>
                         <ul>
-                            <li>HOME</li>
-                            <li>ABOUT</li>
-                            <li>SERVICES</li>
-                            <li>CONTACT</li>
+                            <li class="footer-links">HOME</li>
+                            <li class="footer-links">ABOUT</li>
+                            <li class="footer-links">SERVICES</li>
+                            <li class="footer-links">CONTACT</li>
                             <li><a href="https://api.whatsapp.com/send?phone=2348023704304">WHATSAPP</a></li>
                         </ul>           
                     </div>
