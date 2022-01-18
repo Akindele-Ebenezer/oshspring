@@ -12,6 +12,17 @@
 </head>
 <body>
     
+<div class="load">
+        <div>
+            <p><i><b>Oshspring</b></i></p>
+            <div>
+                <div class="circles"></div>
+                <div class="circles"></div>
+                <div class="circles"></div>
+            </div>
+        </div>
+    </div>  
+    
 <section class="main">
     
 <nav>
