@@ -346,6 +346,11 @@ nav ul li a,
     text-decoration: none;
 }
 
+nav ul li a:hover,
+.nav-toggle ul li a:hover { 
+    border-bottom: solid red;
+}
+
 p {
     line-height: 2rem;
 }
