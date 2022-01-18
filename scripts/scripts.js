@@ -1,4 +1,4 @@
-const main = document.querySelector(".main"); 
+const main = document.querySelector("main"); 
 const navBar = document.querySelector("nav");
 const navIcon = document.querySelector(".nav div img");
 
@@ -65,7 +65,8 @@ for(let i = 0; i < footerLinks.length; i++) {
 }
 
 const loadPage = () => {
-    let load = document.querySelector(".load");  
+    let load = document.querySelector(".load");
+    const main = document.querySelector(".main"); 
     setTimeout(() => { 
         load.style.display = "none";
         main.style.display = "block";
