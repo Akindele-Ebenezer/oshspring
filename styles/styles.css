@@ -14,6 +14,16 @@
     --yellow: #face4b;
 }
 
+.admin-login {
+display: flex;
+justify-content: center;
+padding: 5rem;
+}
+
+.admin-login h1 {
+color: var(--yellow);
+}
+
 button,
 .checklist-wrapper div div a {
     border: 1px solid var(--yellow);
