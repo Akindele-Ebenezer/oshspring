@@ -81,7 +81,7 @@
 
     <div class="details-2">
         <p>We perform high-quality Transportation and delivery of Loads extensively, anywhere around NIGERIA</p>
-        <center><button>BOOK NOW</button></center>
+        <center><a href="#contact"><button>BOOK NOW</button></a></center>
     </div>
 
     <div class="details-3">
