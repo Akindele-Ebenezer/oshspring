@@ -1,5 +1,6 @@
 <?php
   include "header.php";
+  $title = "Admin";
 ?>
 
 <form action="<?= $_SERVER['PHP _SELF'] ?>" method="get">
