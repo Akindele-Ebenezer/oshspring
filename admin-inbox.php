@@ -7,7 +7,7 @@ session_start();
   include "header.php";
   include "config.php";
     if(!$_SESSION["username"]) { 
-      header('Location: admin-login.php'); 
+      header('location: admin-login.php'); 
     }
 
   $sql = "SELECT * FROM admin_inbox;";
