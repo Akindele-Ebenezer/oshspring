@@ -162,13 +162,13 @@
                     <div> 
                             <img src="images/address.png">
                             <p>Address</p>
-                            <p>090234545646</p> 
+                            <p>Lagos, NIGERIA</p> 
                     </div>
                     <div>
                         <a href="https://www.facebook.com/kemirichy/">
                             <img src="images/facebook.png">
                             <p>Facebook</p>
-                            <p>090234545646</p>
+                            <p>Kemi Richardson Osifala</p>
                         </a>
                     </div>
                     <div>
