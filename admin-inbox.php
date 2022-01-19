@@ -6,7 +6,7 @@ session_start();
   $title = "Admin Inbox";
   include "header.php";
   include "config.php";
-    if(!$_SESSION["username"]) { 
+    if(!$_SESSION["loggedin"]) { 
       header('location: admin-login.php'); 
     }
 
