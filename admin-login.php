@@ -14,7 +14,8 @@
 
     if(mysqli_num_rows($query) == 1) {
       session_start();
-      $_SESSION["username"] = true;
+      $_SESSION["loggedin"] = true
+      $_SESSION["username"] = $username;
       header('location: admin-inbox.php');
     } 
 
