@@ -153,24 +153,28 @@
                 </div>
                 <div>
                     <div>
-                        <img src="images/call.png">
-                        <p>Call Us</p>
-                        <p>090234545646</p>
+                        <a href="https://">
+                            <img src="images/call.png">
+                            <p>Call Us</p>
+                            <p>090234545646</p>
+                        </a>
+                    </div>
+                    <div> 
+                            <img src="images/address.png">
+                            <p>Address</p>
+                            <p>090234545646</p> 
                     </div>
                     <div>
-                        <img src="images/address.png">
-                        <p>Address</p>
-                        <p>090234545646</p>
-                    </div>
-                    <div>
-                        <img src="images/facebook.png">
-                        <p>Facebook Link</p>
-                        <p>090234545646</p>
+                        <a href="https://www.facebook.com/kemirichy/">
+                            <img src="images/facebook.png">
+                            <p>Facebook</p>
+                            <p>090234545646</p>
+                        </a>
                     </div>
                     <div>
                         <a href="https://api.whatsapp.com/send?phone=2348023704304">
                             <img src="images/whatsapp.png">
-                            <p>Whatsapp Link</p>
+                            <p>Whatsapp</p>
                             <p>08023704304</p>
                         </a>
                     </div>
