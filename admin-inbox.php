@@ -2,13 +2,13 @@
 <?php
 
 session_start();
-    if(!$_SESSION["username"]) { 
-      header('Location: admin-login.php'); 
-    }
-
+    
   $title = "Admin Inbox";
   include "header.php";
   include "config.php";
+    if(!$_SESSION["username"]) { 
+      header('Location: admin-login.php'); 
+    }
 
   $sql = "SELECT * FROM admin_inbox;";
   $query = mysqli_query($conn, $sql);
