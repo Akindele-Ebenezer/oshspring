@@ -18,7 +18,7 @@
             </p>
             <button><a href="#details">LEARN MORE</a></button>
         </div>
-        <div style="background: url(images/bg.jpg);
+        <div style="background: url(images/bg.jpeg);
                     background-size: cover;
                     border-radius: .5rem;
                     height: 50vh;
