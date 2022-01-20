@@ -1,8 +1,8 @@
 
 <?php
+  include "config.php";
   $title = "Admin";
   include "header.php";
-  include "config.php";
 
   if(isset($_POST["submit"])) {
 
@@ -12,13 +12,12 @@
     $sql = "SELECT * FROM admin WHERE username = '$username' AND password = '$password';";
     $query = mysqli_query($conn, $sql);
     $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
-    
+    print_r($result);
 
     if(mysqli_num_rows($query) == 1) {
       session_start();
-      $_SESSION["loggedin"] = true
-      $_SESSION["username"] = $username;
-      header('location: admin-inbox.php');
+      $_SESSION['username'] = true;
+      header('Location: admin-inbox.php');
     } 
 
   }
