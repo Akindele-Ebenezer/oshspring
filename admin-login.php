@@ -31,12 +31,8 @@
 
   }
 
-?>
-<style> 
-  .admin-login span {
-    color: red;
-  }
-</style>
+?> 
+
 <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post" class="admin-login">
     <div> 
         <span><?= $wrong_credentials; ?></span>
