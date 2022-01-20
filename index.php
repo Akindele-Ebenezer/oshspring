@@ -13,7 +13,7 @@
     
     <div class="intro">
         <div>
-            <h1>OSHSPRING MultiRequest Enterprise</h1>
+            <h1>OSHSPRING Multiquest Enterprise</h1>
             <p>Our nature of business is Agent and Commission Facility Management, Cleaning Services & Logistics, General Supply of Goods & Services.
             </p>
             <button><a href="#details">LEARN MORE</a></button>
