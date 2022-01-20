@@ -14,6 +14,16 @@
     --yellow: #face4b;
 }
 
+.admin-inbox {
+    display: flex;
+    justify-content: center;
+    padding-block: 6rem;
+}
+
+.admin-inbox table tr th {
+    padding-inline: 1rem;
+}
+
 .admin-login {
 display: flex;
 justify-content: center;
