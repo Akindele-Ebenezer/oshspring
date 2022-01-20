@@ -343,6 +343,7 @@ input[placeholder],
     font-size: larger;
     height: 100vh;
     justify-content: center;
+    margin-top: 8rem;
     margin-bottom: 2rem;
 }
  
