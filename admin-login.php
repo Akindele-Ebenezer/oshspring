@@ -27,9 +27,9 @@
 <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post" class="admin-login">
     <div>
         <h1>Log In</h1>
-        <input type="text" name="username" placeholder="Enter Username">
+        <input type="text" name="username" placeholder="Enter Username" class="admin-login-input">
         <span></span>
-        <input type="password" name="password" placeholder="Password">
+        <input type="password" name="password" placeholder="Password" class="admin-login-input>
         <span></span>
         <br><br>
         <button type="submit" name="submit">Submit</button>
