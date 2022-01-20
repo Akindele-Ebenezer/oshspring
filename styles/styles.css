@@ -37,7 +37,10 @@
 .admin-login h1 {
     color: var(--yellow);
 }
-
+ 
+.admin-login span {
+color: red;
+}
 button,
 .checklist-wrapper div div a {
     border: 1px solid var(--yellow);
