@@ -22,18 +22,8 @@
 
   }
 
-?>
-<style>
-  .admin-login {
-    display: flex;
-    justify-content: center;
-    padding: 5rem;
-  }
+?> 
 
-  .admin-login h1 {
-    color: var(--yellow);
-  }
-</style>
 <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post" class="admin-login">
     <div>
         <h1>Log In</h1>
