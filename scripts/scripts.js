@@ -44,22 +44,22 @@ const footerLinks = document.getElementsByClassName("footer-links");
 for(let i = 0; i < footerLinks.length; i++) {
     
   footerLinks[0].addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/");
+    window.open("https://oshspring.com/");
   });
     
     
   footerLinks[1].addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/#details");
+    window.open("https://oshspring.com/#details");
   });
     
     
   footerLinks[2].addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/#services");
+    window.open("https://oshspring.com/#services");
   });
     
     
   footerLinks[3].addEventListener("click", () => {
-    window.open("https://oshspring-multirequest.herokuapp.com/#contact");
+    window.open("https://oshspring.com/#contact");
   });
     
 }
