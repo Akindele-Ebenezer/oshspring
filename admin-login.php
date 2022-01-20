@@ -10,8 +10,9 @@
     $password = $_POST["password"]; 
 
     $sql = "SELECT * FROM admin WHERE username = '$username' AND password = '$password';";
-    $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
     $query = mysqli_query($conn, $sql);
+    $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
+    
 
     if(mysqli_num_rows($query) == 1) {
       session_start();
