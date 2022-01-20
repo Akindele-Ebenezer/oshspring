@@ -25,13 +25,17 @@
 }
 
 .admin-login {
-display: flex;
-justify-content: center;
-padding: 5rem;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
 }
 
 .admin-login h1 {
-color: var(--yellow);
+    color: var(--yellow);
+}
+
+.admin-login h1 {
+    color: var(--yellow);
 }
 
 button,
