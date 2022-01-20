@@ -49,7 +49,7 @@
                     </div>
                 </div>
         </footer>
-        <p>All Rights reserved by OSHSPRING MultiRequest Enterprise &copy;2021</p>
+        <p>All Rights reserved by OSHSPRING Multiquest Enterprise &copy;2021</p>
         <script src="scripts/scripts.js"></script> 
 </main>
 </section>
