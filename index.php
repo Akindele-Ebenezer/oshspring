@@ -5,9 +5,9 @@
 ?> 
 
     <div class="social-links">
-        <img src="images/facebook.png" alt="">
-        <img src="images/call.png" alt="">
-        <img src="images/whatsapp.png" alt="">
+        <a href="https://www.facebook.com/kemirichy/"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="tel:08023704304"><img src="images/call.png" alt="call-us"></a>
+        <a href="https://api.whatsapp.com/send?phone=2348023704304"><img src="images/whatsapp.png" alt="whatsapp"></a>
         <img src="images/address.png" alt="">
     </div>
     
