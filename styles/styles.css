@@ -304,6 +304,14 @@ footer + p {
     border-bottom: solid red;   
 }
 
+.footer-links a {
+    color: #fff;   
+}
+ 
+.footer-links a:hover{
+    font-weight: bold;   
+}
+
 h1:not(footer h1),
  .checklist-wrapper div h2, 
  .details div p,
