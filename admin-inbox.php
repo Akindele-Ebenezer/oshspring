@@ -14,20 +14,7 @@ session_start();
   $query = mysqli_query($conn, $sql);
   $result = mysqli_fetch_all($query, MYSQLI_ASSOC); 
 
-?>
-<style> 
-
-.admin-inbox {
-    display: flex;
-    justify-content: center;
-    padding-block: 6rem;
-}
-
-.admin-inbox table tr th {
-    padding-inline: 1rem;
-}
-
-</style>
+?>  
 
 <div class="admin-inbox">
     <table>
