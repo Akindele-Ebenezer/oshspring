@@ -484,6 +484,10 @@ section.main {
     width: 3rem;
 }
 
+table tr td {
+    padding-inline: 2rem;   
+}
+
 textarea { 
     height: 10rem;
     resize: none;
