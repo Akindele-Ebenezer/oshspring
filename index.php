@@ -116,14 +116,7 @@
                     <img src="images/warehousing.jpg"><br>
                     <p>Warehousing</p> 
                 </div>
-                <div>
-                    <img src="images/packaging.png"><br>
-                    <p>Packaging of items</p> 
-                </div>
-                <div>
-                    <img src="images/material.jpg"><br>
-                    <p>Material handling</p> 
-                </div>
+
                 <div>
                     <img src="images/information.png"><br>
                     <p>Information</p> 
