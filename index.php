@@ -14,7 +14,7 @@
     <div class="intro">
         <div>
             <h1>OSHSPRING Multiquest Enterprise</h1>
-            <p>Our nature of business is Logistics, moving of General Supply of Goods & Services, Auto Mobile, Car Sales & Repairs of Foreign used Vehicles.
+            <p>Our nature of business is Logistics, moving of Goods & Supply of Services, Auto Mobile, Car Sales & Repairs of Foreign used Vehicles.
             </p>
             <button><a href="#details">LEARN MORE</a></button>
         </div>
