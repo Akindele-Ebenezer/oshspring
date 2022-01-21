@@ -16,11 +16,11 @@
     print_r($result);
 
     if(empty($username)) {
-      $username_error = "Enter Username";
+        $username_error = "Enter Username";
     } elseif(empty($password)) {
-      $password_error = "Enter Password";
+        $password_error = "Enter Password";
     } else {
-      $wrong_credentials = "Wrong Username/Password";
+        $wrong_credentials = "Wrong Username/Password";
     }
 
     if(mysqli_num_rows($query) == 1) {
@@ -37,9 +37,9 @@
     <div> 
         <span><?= $wrong_credentials; ?></span>
         <h1>Log In</h1>
-        <input type="text" name="username" placeholder="Enter Username"><br>
+        <input type="text" name="username" placeholder="Enter Username" class"admin-login-input"><br>
         <span><?= $username_error; ?></span>
-        <input type="password" name="password" placeholder="Password"><br>
+        <input type="password" name="password" placeholder="Password" class="admin-login-input"><br>
         <span><?= $password_error; ?></span>
         <br><br>
         <button type="submit" name="submit">Submit</button>
