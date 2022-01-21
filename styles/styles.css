@@ -484,7 +484,12 @@ section.main {
     width: 3rem;
 }
 
+table {
+    border-collapse: collapse;   
+}
+
 table tr td {
+    border: solid deepskyblue;
     padding-inline: 2rem;   
 }
 
