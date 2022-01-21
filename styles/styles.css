@@ -20,8 +20,17 @@
     padding-block: 6rem;
 }
 
+.admin-inbox table {
+    border-collapse: collapse;   
+}
+
+.admin-inbox table tr td {
+    border: solid deepskyblue;
+    padding-inline: 2rem;   
+}
+
 .admin-inbox table tr th {
-    padding-inline: 1rem;
+    padding: 1rem;
 }
 
 .admin-login {
@@ -482,15 +491,6 @@ section.main {
 .social-links img {
     margin: .5rem;
     width: 3rem;
-}
-
-table {
-    border-collapse: collapse;   
-}
-
-table tr td {
-    border: solid deepskyblue;
-    padding-inline: 2rem;   
 }
 
 textarea { 
