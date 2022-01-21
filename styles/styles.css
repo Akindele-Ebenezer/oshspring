@@ -95,6 +95,7 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-block: 4rem;
 }
 
 .checklist-wrapper div { 
