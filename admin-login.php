@@ -38,7 +38,7 @@
         <span><?= $wrong_credentials; ?></span>
         <h1>Log In</h1>
         <input type="text" name="username" placeholder="Enter Username" class"admin-login-input"><br>
-        <span><?= $username_error; ?></span>
+        <span><?= $username_error; ?></span> <br>
         <input type="password" name="password" placeholder="Password" class="admin-login-input"><br>
         <span><?= $password_error; ?></span>
         <br><br>
