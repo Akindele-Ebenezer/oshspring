@@ -2,7 +2,7 @@
         <footer>
                 <div>
                     <div>
-                        <h1>Oshspring MultiRequest Enterprise</h1>
+                        <h1>Oshspring Multiquest Enterprise</h1>
                         <p>We plan, implement, and control the movement and storage of goods, services, or information within Nigeria.
                         <br><br>
                         Moving equipments/materials for your new House, Church, School or any other Organisations from one Location to other Locations safely is our Job.
