@@ -44,7 +44,7 @@
         <div>
             <h2>Quality Service</h2>
             <p>Generally, our services base on information, transportation, inventory, warehousing, material handling and packaging of items.</p>
-            <a href="tel:08023704304">CALL</a>
+            <a href="tel:09087338032">CALL</a>
         </div>
     </div>
 
@@ -97,7 +97,7 @@
             <p> The main advantage of our cooperation centralizes on efficiency and accurate adherance with the value for money.</p>
         </div>
         <div>
-            <button><a href="https://api.whatsapp.com/send?phone=2348023704304">08023704304</a></button>
+            <button><a href="https://api.whatsapp.com/send?phone=2349087338032">09087338032</a></button>
         </div>
     </div>
 
@@ -146,10 +146,10 @@
                 </div>
                 <div>
                     <div>
-                        <a href="tel:08023704304">
+                        <a href="tel:09087338032">
                             <img src="images/call.png">
                             <p>Call Us</p>
-                            <p>08023704304</p>
+                            <p>09087338032</p>
                         </a>
                     </div>
                     <div> 
